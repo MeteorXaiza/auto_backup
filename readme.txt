@@ -1,4 +1,6 @@
 1.使い方
+以下のURLからmy_functions_2.pyをダウンロードし、auto_backup.pyと同じディレクトリに置いてください
+https://drive.google.com/open?id=1M3GIC3Kb6mgzsd_U3grE2Wv1ASUdPFfI
 Windowsではコマンドプロンプト、MacではTerminalにコマンドを入力することでバックアップが開始されます。
 backup_configファイルを書き換えることでバックアップ元のディレクトリ、バックアップ先のディレクトリなどを指定できます。backup_configファイルについては1.3をご覧ください。
 
