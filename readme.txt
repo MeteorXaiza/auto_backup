@@ -1,6 +1,5 @@
 1.使い方
-以下のURLからmy_functions_2.pyをダウンロードし、auto_backup.pyと同じディレクトリに置いてください
-https://drive.google.com/open?id=1M3GIC3Kb6mgzsd_U3grE2Wv1ASUdPFfI
+動作環境については3.をご覧ください。
 Windowsではコマンドプロンプト、MacではTerminalにコマンドを入力することでバックアップが開始されます。
 backup_configファイルを書き換えることでバックアップ元のディレクトリ、バックアップ先のディレクトリなどを指定できます。backup_configファイルについては1.3をご覧ください。
 
@@ -40,3 +39,9 @@ auto_backup.pyを実行します。半角スペースの後ろにbackup_config�
 バックアップ元となったディレクトリの構造と更新日時が記録されているファイルです。directory_structureファイルを参照することで前回バックアップを行って以来、あるファイルに更新があったかどうかを確認し、更新があった場合はバックアップの対象となります。また、directory_structureファイルに含まれていないファイルは必ずバックアップの対象となります。
 2.2 fault_listファイル
 バックアップを試みたが失敗した場合、fault_listファイルに失敗したファイルやディレクトリのパスが記録されます。
+
+
+3. 動作環境
+下記のURLからmy_functions_2.pyをダウンロードし、auto_backup.pyと同じディレクトリに置いてください。
+auto_backupの動作環境はmy_functions_2の動作環境と同じです。my_functions_2.pyの動作環境はmy_functions_readme.txtに記載されています。
+https://drive.google.com/open?id=120lrUcihJ5zlR9qJE0rGtAYDbj9NmBYQ
